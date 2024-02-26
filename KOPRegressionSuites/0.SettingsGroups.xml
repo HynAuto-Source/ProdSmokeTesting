@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="KIA-CWP">
+	
+	<groups>
+		<run>
+			<include name="Smoke"/>
+		</run>
+	</groups>
+
+	<parameter name="category" value="Smoke Testing"></parameter>
+	<parameter name="authors" value="HAEA-KIA"></parameter>
+
+	<test name="Settings" preserve-order="true">
+		<parameter name="browser" value="edge"></parameter>
+		<parameter name="dataSheetName" value="TC000_0"></parameter>
+		<parameter name="testCaseName" value="Settings"></parameter>
+		<parameter name="testDescription" value="Settings - Smoke Test"></parameter>
+		<parameter name="env" value="Prod"></parameter>
+		<classes>
+			<class name="testcases.TC000_Settings">
+			</class>
+		</classes>
+	</test>
+</suite> 

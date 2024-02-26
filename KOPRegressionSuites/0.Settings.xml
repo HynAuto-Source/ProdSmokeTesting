@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="KIA-CWP">
+
+	<parameter name="category" value="Smoke Testing"></parameter>
+	<parameter name="authors" value="HAEA-KIA"></parameter>
+
+	<test name="Settings" preserve-order="true">
+		<parameter name="browser" value="edge"></parameter>
+		<parameter name="dataSheetName" value="TC000_0"></parameter>
+		<parameter name="testCaseName" value="Settings"></parameter>
+		<parameter name="testDescription" value="Settings - Smoke Test"></parameter>
+		<parameter name="env" value="Prod"></parameter>
+		<classes>
+			<class name="testcases.TC000_Settings">
+				<methods>
+					
+					 <include name="personalDetails"></include>
+					 <exclude name="phoneNumberVerified"></exclude>
+					 <exclude name="settingsChangePassword"></exclude>
+					 <exclude name="settingsUpdatePIN"></exclude>
+					 <exclude name="settingsUpdatePINWithPassword"></exclude>
+					 <exclude name="settingsCPEnableToggle"></exclude>
+					 <exclude name="settingsKiaConnectNotificationAlertsTurnOff"></exclude>
+					 <exclude name="settingsKiaConnectNotificationAlertsTurnOn"></exclude>
+					 
+					 <!-- ================================================================= -->
+					
+					<exclude name="updatePersonalDetails"></exclude>
+					<exclude name="updateStateValue"></exclude>
+					<exclude name="verifySecurityTab"></exclude>
+					<exclude name="verifyChangeInvalidPassword"></exclude>
+					<exclude name="verifyNullPasswordChange"></exclude>
+					<exclude name="verifyChangePasswordEnabled"></exclude>
+					<exclude name="verifyNewPasswordMsgTxt"></exclude>
+					<exclude name="verifyOldPasswordMismatchErrorMsgTxt"></exclude>
+					<exclude name="verifyCommunicationPreferenceTab"></exclude>
+					<exclude name="verifyPhonePreferenceField"></exclude>
+					<exclude name="verifyLanguageDropDown"></exclude>
+					<exclude name="verifyKiaConnectNotificationTab"></exclude>
+					<exclude name="verifyKiaConnectNotificationOptions"></exclude>
+					
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> 

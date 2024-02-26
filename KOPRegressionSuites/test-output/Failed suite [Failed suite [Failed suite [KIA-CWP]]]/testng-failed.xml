@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Failed suite [Failed suite [KIA-CWP]]]]">
+  <parameter name="dataSheetName" value="TC006"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="testCaseName" value="VehicleStatus"/>
+  <parameter name="category" value="Smoke Testing"/>
+  <parameter name="testDescription" value="My Vehicles - Smoke Test"/>
+  <parameter name="authors" value="HAEA-KIA"/>
+  <test name="VehicleStatus(failed)(failed)(failed)(failed)">
+    <parameter name="dataSheetName" value="TC006"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="testCaseName" value="VehicleStatus"/>
+    <parameter name="testDescription" value="My Vehicles - Smoke Test"/>
+    <classes>
+      <class name="testcases.TC006_VehicleStatus">
+        <methods>
+          <include name="VehicleStatusVerifyTheVehicleName"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcases.TC006_VehicleStatus -->
+    </classes>
+  </test> <!-- VehicleStatus(failed)(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Failed suite [KIA-CWP]]]] -->

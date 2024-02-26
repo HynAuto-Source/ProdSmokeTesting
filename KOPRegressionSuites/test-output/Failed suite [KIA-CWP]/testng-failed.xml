@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [KIA-CWP]]">
+  <parameter name="dataSheetName" value="TC011_7"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="testCaseName" value="MyCarZone  Update Speed Alert"/>
+  <parameter name="category" value="Smoke Testing"/>
+  <parameter name="testDescription" value="MyCarZone Update Speed Alert - Smoke Test"/>
+  <parameter name="authors" value="HAEA-KIA"/>
+  <test name="Speed Alert - Update Speed Alert(failed)(failed)">
+    <parameter name="dataSheetName" value="TC011_7"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="testCaseName" value="MyCarZone  Update Speed Alert"/>
+    <parameter name="testDescription" value="MyCarZone Update Speed Alert - Smoke Test"/>
+    <classes>
+      <class name="testcases.TC011_MyCarZone">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="afterTest"/>
+          <include name="updateCurfewAlertMCZ" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.TC011_MyCarZone -->
+    </classes>
+  </test> <!-- Speed Alert - Update Speed Alert(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [KIA-CWP]] -->

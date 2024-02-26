@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="KIA-CWP">
+	
+	<parameter name="category" value="Smoke Testing"></parameter>
+	<parameter name="authors" value="HAEA-KIA"></parameter>
+	
+	
+<test  name="Login">
+  	 <parameter name="browser" value="edge"></parameter>
+  	 <parameter name="dataSheetName" value="TC000_2"></parameter>
+	 <parameter name="testCaseName" value="Login"></parameter>
+	 <parameter name="testDescription" value="Login - Smoke Test"></parameter>
+	 <parameter name="env" value="Prod"></parameter>
+    <classes>
+      <class name="testcases.TC002_Login">
+		 <!-- <methods> 
+		      <exclude name="verifySignInIsDisplayed"></exclude>
+			  <exclude name="verifyLoginIn"></exclude>
+			  <exclude name="verifyCreateAccountPopup"></exclude>
+			  <exclude name="verifyForgotPasswordLink"></exclude>
+			  <exclude name="verifySignInButtonFunctionality"></exclude>
+			  <exclude name="verifyInvalidEmailAndPassword"></exclude>
+			  <exclude name="verifyInvalidEmailAndValidPassword"></exclude>
+			  <exclude name="verifySignInWithoutEnteringEmailAndPassword"></exclude>
+			 <exclude name="verifySignInWithoutEnteringEmailId"></exclude>
+			 <exclude name="verifySignInWithoutEnteringPassword"></exclude>
+			 <include name="verifySignInButtonEnabled"></include>
+		  </methods>-->
+	  </class>      
+    </classes>
+  </test>  
+</suite> 

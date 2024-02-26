@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="KIA-CWP">
+
+	<parameter name="category" value="Smoke Testing"></parameter>
+	<parameter name="authors" value="HAEA-KIA"></parameter>
+
+
+	<test name="Maintenance">
+		<parameter name="browser" value="edge"></parameter>
+		<parameter name="dataSheetName" value="TC000_10"></parameter>
+		<parameter name="testCaseName" value="Maintenance"></parameter>
+		<parameter name="testDescription" value="Maintenance - Smoke Test"></parameter>
+		<parameter name="env" value="Prod"></parameter>
+		<!--<groups>
+	<run>
+	<include name="Run"></include>
+	<exclude name="dontRun"></exclude>
+	</run>
+	</groups>--> 
+		<classes>
+			<class name="testcases.TC010_Maintenance">
+				 <methods>
+					<exclude name="verifyGearIcon"></exclude>
+					<exclude name="clickAndVerifyGearIcon"></exclude>
+					<exclude name="chooseADealerAndVerifyPopup"></exclude>
+					<exclude name="searchDealerDetails"></exclude>
+                    <exclude name="verifyUseThisDealerEnable"></exclude>
+                    <exclude name="checkCollapseAllAndExpandForMiles"></exclude>
+                    <include name="verifyRequestDealerAppointment"></include>
+				</methods>  
+			</class>
+		</classes>
+	</test>
+</suite> 

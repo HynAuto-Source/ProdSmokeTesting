@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="KIA-CWP">
+	
+	<parameter name="category" value="Smoke Testing"></parameter>
+	<parameter name="authors" value="HAEA-KIA"></parameter>
+	
+	  
+  <test  name="KIAConnectSubscriptionStaging">
+  	 <parameter name="browser" value="chrome"></parameter>
+  	 <parameter name="dataSheetName" value="TC000_13"></parameter>
+	 <parameter name="testCaseName" value="KIAConnectSubscription"></parameter>
+	 <parameter name="testDescription" value="KIAConnectSubscription - Smoke Test"></parameter>
+	 <parameter name="env" value="staging"></parameter>
+    <classes>
+      <class name="testcases.TC014_KIAConnectSubscriptionStaging">
+		  <methods> 
+		      <exclude name="verifyUpgradeMonthlySubscriptionToPlusPackage"></exclude>
+		      <exclude name="verifyDowngradeMonthlySubscriptionToCarePackage"></exclude>
+		      <exclude name="verifyUpgradeAnnualSubscriptionToPlusPackage"></exclude>
+              <exclude name="cancelThePackageForMonthlySubcription"></exclude>
+              <exclude name="verifyDowngradeAnnualSubscriptionToCarePackage"></exclude>
+              <exclude name="verifyUpgradeMonthlySubscriptionLiteToCarePackage"></exclude>
+              <exclude name="verifyUpgradeMonthlySubscriptionCareToPlusPackage"></exclude>
+              <exclude name="verifyUpgradeMonthlySubscriptionPlusToUltimatePackage"></exclude>
+              <exclude name="verifyUpgradeMonthlySubscriptionUltimateToCareAnnualPackage"></exclude>
+              <exclude name="verifyUpgradeAnnualSubscriptionCareToPlusPackage"></exclude>
+              <exclude name="verifyUpgradeAnnualSubscriptionPlusToUltimatePackage"></exclude>
+              <exclude name="cancelThePackageForAnnualSubcription"></exclude>
+              <exclude name="verifyUpgradeMonthlySubscriptionLiteToPlusPackage"></exclude>
+              <exclude name="verifyUpgradeMonthlySubscriptionLiteToUltimatePackage"></exclude>
+              <exclude name="verifyUpgradeAnnualSubscriptionLiteToPlusPackage"></exclude>
+              <exclude name="verifyUpgradeAnnualSubscriptionLiteToUltimatePackage"></exclude>
+              <exclude name="verifyDowngradeAnnualSubscriptionUltimateToMonthlyPlusPackage"></exclude>
+              <exclude name="verifyDowngradeMonthlySubscriptionPlusToCarePackage"></exclude>
+              <exclude name="verifyUpgradeMonthlyCareToAnnualUltimatePackage"></exclude>
+              <exclude name="verifyDowndgradeAnnualUltimateToPlusPackage"></exclude>
+              <exclude name="verifyDowndgradeAnnualPlusToCarePackage"></exclude>
+              <exclude name="verifyDowndgradeAnnualCareToMonthlyUltimatePackage"></exclude>
+              <exclude name="verifyDowndgradeMonthlySubscriptionUltimateToPlusPackage"></exclude>
+              <exclude name="verifyDowndgradeMonthlySubscriptionPlusToCarePackage"></exclude>
+              <exclude name="cancelTheMonthlySubcriptionFromCareToLite"></exclude>
+              <include name="cancelTheUltimateMonthlySubcription"></include>
+              <include name="cancelTheAnnualPlusPackage"></include>
+              <include name="cancelTheAnnualUltimatePackage"></include>
+              <include name="verifyAbleToSubscribePackage"></include>
+		  </methods>
+	  </class>      
+    </classes>
+  </test>  
+</suite> 

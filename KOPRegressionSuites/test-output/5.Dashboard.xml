@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="KIA-CWP">
+	
+	<parameter name="category" value="Smoke Testing"></parameter>
+	<parameter name="authors" value="HAEA-KIA"></parameter>
+	
+	
+<test  name="Dashboard">
+  	 <parameter name="browser" value="chrome"></parameter>
+  	 <parameter name="dataSheetName" value="TC000_1"></parameter>
+	 <parameter name="testCaseName" value="Dashboard"></parameter>
+	 <parameter name="testDescription" value="Dashboard - Smoke Test"></parameter>
+    <classes>
+      <class name="testcases.TC005_Dashboard">
+		  <methods> 
+		      <include name="DashboardClickDoorUnLock"></include>     
+		  </methods>
+	  </class>      
+    </classes>
+  </test>  
+</suite> 

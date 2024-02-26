@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="KIA-CWP">
+	
+	<parameter name="category" value="Smoke Testing"></parameter>
+	<parameter name="authors" value="HAEA-KIA"></parameter>
+	
+	
+<test  name="Locations">
+  	 <parameter name="browser" value="edge"></parameter>
+  	 <parameter name="dataSheetName" value="TC000_9"></parameter>
+	 <parameter name="testCaseName" value="Locations"></parameter>
+	 <parameter name="testDescription" value="Locations - Smoke Test"></parameter>
+	 <parameter name="env" value="Prod"></parameter>
+    <classes>
+      <class name="testcases.TC009_Locations">
+		  <methods> 
+		      <exclude name="getCurrentLocations"></exclude>
+		       <exclude name="verifyAddPOIs"></exclude>
+		       <include name="verifyAddAndSendToVehicle"></include>
+		       <exclude name="updateNotes"></exclude>
+		        <exclude name="verifyDeletePOIs"></exclude>
+		         <exclude name="verifyTripDetails"></exclude>
+		          <exclude name="verifyTripChange"></exclude>
+		           <exclude name="mergeTwoTrips"></exclude>
+		            <exclude name="verifyTags"></exclude>
+		             <exclude name="unMergeTrips"></exclude>
+		              <exclude name="exportTripDetails"></exclude>
+		             <exclude name="verify360viewSection"></exclude>
+		               <exclude name="verifyGalleryDropDown"></exclude>
+		                <exclude name="verifyCollapseAllOption"></exclude>
+		                <exclude name="verifyTakePicOption"></exclude>
+		                  <exclude name="verifyDeleteGalleryFunction"></exclude>
+		  </methods>
+	  </class>      
+    </classes>
+  </test>  
+</suite> 

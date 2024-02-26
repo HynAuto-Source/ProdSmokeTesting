@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="KIA-CWP">
+
+	<parameter name="category" value="Smoke Testing"></parameter>
+	<parameter name="authors" value="HAEA-KIA"></parameter>
+
+
+	<test name="AdditionalDrivers">
+		<parameter name="browser" value="edge"></parameter>
+		<parameter name="dataSheetName" value="TC000_15"></parameter>
+		<parameter name="testCaseName" value="AdditionalDrivers"></parameter>
+		<parameter name="testDescription" value="AdditionalDrivers - Smoke Test"></parameter>
+		<parameter name="env" value="Prod"></parameter>
+		<classes>
+			<class name="testcases.TC013_AdditionalDrivers">
+				<methods>
+                    <include name="verifyAcceptAndRejectLink"></include>
+                    <include name="verifyStatusWhileAcceptingLink"></include>
+                    <include name="verifyDeleteAndCancelButtonIsDisabledPostAccept"></include>
+                    <include name="clickAndVerifyRejectLink"></include>             
+                    <include name="verifyDeleteAndAuthorizedButtonIsDisabledPostReject"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite> 

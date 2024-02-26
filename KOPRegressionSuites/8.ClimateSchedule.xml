@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="KIA-CWP">
+	
+	<parameter name="category" value="Smoke Testing"></parameter>
+	<parameter name="authors" value="HAEA-KIA"></parameter>
+	
+	
+<test  name="Climate Schedule">
+  	 <parameter name="browser" value="edge"></parameter>
+  	 <parameter name="dataSheetName" value="TC000_8"></parameter>
+	 <parameter name="testCaseName" value="Climate Schedule"></parameter>
+	 <parameter name="testDescription" value="Climate Schedule - Smoke Test"></parameter>
+	 <parameter name="env" value="Prod"></parameter>
+    <classes>
+      <class name="testcases.TC008_Schedules">
+		  <methods> 
+		      <exclude name="verifyCreateClimateSchedulePopup"></exclude>
+		      <exclude name="verifyClimateScheduleButton"></exclude>
+		      <exclude name="verifyClimateSchedulePopup"></exclude>
+		      <exclude name="verifyToggleOff"></exclude>
+		      <exclude name="verifyActivationToggleTurnedOn"></exclude>
+		      <exclude name="editFirstSchedule"></exclude>
+		       <include name="editSecondSchedule"></include>
+		       <exclude name="deleteClimateSchedule"></exclude>
+		       <exclude name="closeCreateClimateSchedulePopup"></exclude>
+		      <exclude name="closeCreateClimateSchedulePopup"></exclude>
+		  </methods>
+	  </class>      
+    </classes>
+  </test>  
+</suite> 

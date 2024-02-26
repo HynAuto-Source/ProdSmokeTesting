@@ -1,0 +1,2058 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="22" passed="22" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-27T23:45:36 GMT-06:00" name="KIA-CWP" finished-at="2023-12-28T00:15:48 GMT-06:00" duration-ms="1811118">
+    <groups>
+    </groups>
+    <test started-at="2023-12-27T23:45:36 GMT-06:00" name="MyVehicles" finished-at="2023-12-28T00:15:48 GMT-06:00" duration-ms="1811118">
+      <class name="testcases.TC004_MyVehicles">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-27T23:45:36 GMT-06:00" name="beforeSuite" finished-at="2023-12-27T23:45:36 GMT-06:00" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-27T23:45:36 GMT-06:00" name="beforeTest" finished-at="2023-12-27T23:45:36 GMT-06:00" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MyVehicles]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MyVehicles - Smoke Test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-27T23:45:38 GMT-06:00" name="beforeMethod" finished-at="2023-12-27T23:45:48 GMT-06:00" duration-ms="10260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC004_MyVehicles.myVehiclesPickTheVehicle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testcases.TC004_MyVehicles@f78a47e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MyVehicles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MyVehicles - Smoke Test]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Prod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="myVehiclesPickTheVehicle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-27T23:45:48 GMT-06:00" name="myVehiclesPickTheVehicle" data-provider="fetchData" finished-at="2023-12-27T23:47:56 GMT-06:00" duration-ms="127236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678901244000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2023]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[My Telluride]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[telluride]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[invalid@mailinator.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myVehiclesPickTheVehicle -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-27T23:47:56 GMT-06:00" name="afterMethod" finished-at="2023-12-27T23:47:57 GMT-06:00" duration-ms="1264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-27T23:47:57 GMT-06:00" name="beforeMethod" finished-at="2023-12-27T23:48:02 GMT-06:00" duration-ms="5201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC004_MyVehicles.myVehiclesClickAddvehicle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testcases.TC004_MyVehicles@f78a47e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MyVehicles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MyVehicles - Smoke Test]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Prod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="myVehiclesClickAddvehicle(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-27T23:48:02 GMT-06:00" name="myVehiclesClickAddvehicle" data-provider="fetchData" finished-at="2023-12-27T23:48:17 GMT-06:00" duration-ms="14377" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678901244000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2023]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[My Telluride]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[telluride]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[invalid@mailinator.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myVehiclesClickAddvehicle -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-27T23:48:17 GMT-06:00" name="afterMethod" finished-at="2023-12-27T23:48:23 GMT-06:00" duration-ms="6792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-27T23:48:24 GMT-06:00" name="beforeMethod" finished-at="2023-12-27T23:48:30 GMT-06:00" duration-ms="5977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC004_MyVehicles.verifyMyVehicleOptions(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:testcases.TC004_MyVehicles@f78a47e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MyVehicles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MyVehicles - Smoke Test]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Prod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyMyVehicleOptions(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-27T23:48:30 GMT-06:00" name="verifyMyVehicleOptions" data-provider="fetchData" finished-at="2023-12-27T23:49:39 GMT-06:00" duration-ms="69558" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678901244000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2023]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[My Telluride]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[telluride]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[invalid@mailinator.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMyVehicleOptions -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-27T23:49:39 GMT-06:00" name="afterMethod" finished-at="2023-12-27T23:49:40 GMT-06:00" duration-ms="1191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-27T23:49:40 GMT-06:00" name="beforeMethod" finished-at="2023-12-27T23:49:46 GMT-06:00" duration-ms="5455" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC004_MyVehicles.verifyNoVechileMatchedForThisSearchPopup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:testcases.TC004_MyVehicles@f78a47e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MyVehicles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MyVehicles - Smoke Test]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Prod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyNoVechileMatchedForThisSearchPopup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-27T23:49:46 GMT-06:00" name="verifyNoVechileMatchedForThisSearchPopup" data-provider="fetchData" finished-at="2023-12-27T23:50:49 GMT-06:00" duration-ms="62895" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678901244000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2023]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[My Telluride]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[telluride]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[invalid@mailinator.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNoVechileMatchedForThisSearchPopup -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-27T23:50:49 GMT-06:00" name="afterMethod" finished-at="2023-12-27T23:50:50 GMT-06:00" duration-ms="1231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-27T23:50:50 GMT-06:00" name="beforeMethod" finished-at="2023-12-27T23:50:57 GMT-06:00" duration-ms="6638" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC004_MyVehicles.clickAddVechileButton(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:testcases.TC004_MyVehicles@f78a47e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MyVehicles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MyVehicles - Smoke Test]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Prod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="clickAddVechileButton(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-27T23:50:57 GMT-06:00" name="clickAddVechileButton" data-provider="fetchData" finished-at="2023-12-27T23:51:53 GMT-06:00" duration-ms="55782" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678901244000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2023]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[My Telluride]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[telluride]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[invalid@mailinator.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAddVechileButton -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-27T23:51:53 GMT-06:00" name="afterMethod" finished-at="2023-12-27T23:51:54 GMT-06:00" duration-ms="1218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-27T23:51:54 GMT-06:00" name="beforeMethod" finished-at="2023-12-27T23:51:59 GMT-06:00" duration-ms="5147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC004_MyVehicles.verifyAddVechileButton(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:testcases.TC004_MyVehicles@f78a47e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MyVehicles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MyVehicles - Smoke Test]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Prod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyAddVechileButton(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-27T23:51:59 GMT-06:00" name="verifyAddVechileButton" data-provider="fetchData" finished-at="2023-12-27T23:52:43 GMT-06:00" duration-ms="44374" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678901244000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2023]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[My Telluride]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[telluride]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[invalid@mailinator.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddVechileButton -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-27T23:52:43 GMT-06:00" name="afterMethod" finished-at="2023-12-27T23:52:45 GMT-06:00" duration-ms="1226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-27T23:52:45 GMT-06:00" name="beforeMethod" finished-at="2023-12-27T23:52:50 GMT-06:00" duration-ms="5159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC004_MyVehicles.enterVinField(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:7, instance:testcases.TC004_MyVehicles@f78a47e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MyVehicles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MyVehicles - Smoke Test]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Prod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="enterVinField(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:7, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-27T23:52:50 GMT-06:00" name="enterVinField" data-provider="fetchData" finished-at="2023-12-27T23:53:41 GMT-06:00" duration-ms="51196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678901244000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2023]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[My Telluride]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[telluride]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[invalid@mailinator.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterVinField -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-27T23:53:41 GMT-06:00" name="afterMethod" finished-at="2023-12-27T23:53:42 GMT-06:00" duration-ms="1194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-27T23:53:42 GMT-06:00" name="beforeMethod" finished-at="2023-12-27T23:53:48 GMT-06:00" duration-ms="5121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC004_MyVehicles.validateVerifyVinIsDisable(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:8, instance:testcases.TC004_MyVehicles@f78a47e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MyVehicles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MyVehicles - Smoke Test]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Prod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validateVerifyVinIsDisable(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:8, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-27T23:53:48 GMT-06:00" name="validateVerifyVinIsDisable" data-provider="fetchData" finished-at="2023-12-27T23:54:46 GMT-06:00" duration-ms="58513" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678901244000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2023]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[My Telluride]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[telluride]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[invalid@mailinator.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateVerifyVinIsDisable -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-27T23:54:46 GMT-06:00" name="afterMethod" finished-at="2023-12-27T23:55:00 GMT-06:00" duration-ms="13979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-27T23:55:00 GMT-06:00" name="beforeMethod" finished-at="2023-12-27T23:55:07 GMT-06:00" duration-ms="6764" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC004_MyVehicles.verifyVinButtonIsEnabled(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:testcases.TC004_MyVehicles@f78a47e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MyVehicles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MyVehicles - Smoke Test]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Prod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyVinButtonIsEnabled(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-27T23:55:07 GMT-06:00" name="verifyVinButtonIsEnabled" data-provider="fetchData" finished-at="2023-12-27T23:57:16 GMT-06:00" duration-ms="128736" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678901244000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2023]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[My Telluride]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[telluride]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[invalid@mailinator.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyVinButtonIsEnabled -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-27T23:57:16 GMT-06:00" name="afterMethod" finished-at="2023-12-27T23:57:17 GMT-06:00" duration-ms="1286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-27T23:57:17 GMT-06:00" name="beforeMethod" finished-at="2023-12-27T23:57:24 GMT-06:00" duration-ms="7330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC004_MyVehicles.enterInvalidVinNumber(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:10, instance:testcases.TC004_MyVehicles@f78a47e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MyVehicles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MyVehicles - Smoke Test]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Prod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="enterInvalidVinNumber(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:10, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-27T23:57:24 GMT-06:00" name="enterInvalidVinNumber" data-provider="fetchData" finished-at="2023-12-27T23:59:46 GMT-06:00" duration-ms="141082" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678901244000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2023]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[My Telluride]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[telluride]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[invalid@mailinator.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterInvalidVinNumber -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-27T23:59:46 GMT-06:00" name="afterMethod" finished-at="2023-12-27T23:59:50 GMT-06:00" duration-ms="4675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-27T23:59:50 GMT-06:00" name="beforeMethod" finished-at="2023-12-27T23:59:57 GMT-06:00" duration-ms="6637" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC004_MyVehicles.verifyWhereCanIFindVin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:11, instance:testcases.TC004_MyVehicles@f78a47e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MyVehicles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MyVehicles - Smoke Test]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Prod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyWhereCanIFindVin(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:11, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-27T23:59:57 GMT-06:00" name="verifyWhereCanIFindVin" data-provider="fetchData" finished-at="2023-12-28T00:00:51 GMT-06:00" duration-ms="53524" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678901244000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2023]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[My Telluride]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[telluride]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[invalid@mailinator.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyWhereCanIFindVin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-28T00:00:51 GMT-06:00" name="afterMethod" finished-at="2023-12-28T00:00:52 GMT-06:00" duration-ms="1215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-28T00:00:52 GMT-06:00" name="beforeMethod" finished-at="2023-12-28T00:00:58 GMT-06:00" duration-ms="6247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC004_MyVehicles.searchByYear(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:12, instance:testcases.TC004_MyVehicles@f78a47e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MyVehicles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MyVehicles - Smoke Test]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Prod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchByYear(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:12, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-28T00:00:58 GMT-06:00" name="searchByYear" data-provider="fetchData" finished-at="2023-12-28T00:01:41 GMT-06:00" duration-ms="43334" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678901244000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2023]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[My Telluride]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[telluride]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[invalid@mailinator.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByYear -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-28T00:01:41 GMT-06:00" name="afterMethod" finished-at="2023-12-28T00:01:43 GMT-06:00" duration-ms="1181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-28T00:01:43 GMT-06:00" name="beforeMethod" finished-at="2023-12-28T00:01:48 GMT-06:00" duration-ms="5577" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC004_MyVehicles.searchByModel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:13, instance:testcases.TC004_MyVehicles@f78a47e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MyVehicles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MyVehicles - Smoke Test]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Prod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchByModel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:13, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-28T00:01:48 GMT-06:00" name="searchByModel" data-provider="fetchData" finished-at="2023-12-28T00:03:21 GMT-06:00" duration-ms="92311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678901244000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2023]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[My Telluride]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[telluride]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[invalid@mailinator.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByModel -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-28T00:03:21 GMT-06:00" name="afterMethod" finished-at="2023-12-28T00:03:22 GMT-06:00" duration-ms="1229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-28T00:03:22 GMT-06:00" name="beforeMethod" finished-at="2023-12-28T00:03:28 GMT-06:00" duration-ms="5889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC004_MyVehicles.searchByNickName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:14, instance:testcases.TC004_MyVehicles@f78a47e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MyVehicles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MyVehicles - Smoke Test]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Prod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="searchByNickName(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:14, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-28T00:03:28 GMT-06:00" name="searchByNickName" data-provider="fetchData" finished-at="2023-12-28T00:04:06 GMT-06:00" duration-ms="38395" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678901244000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2023]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[My Telluride]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[telluride]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[invalid@mailinator.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByNickName -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-28T00:04:06 GMT-06:00" name="afterMethod" finished-at="2023-12-28T00:04:07 GMT-06:00" duration-ms="1216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-28T00:04:08 GMT-06:00" name="beforeMethod" finished-at="2023-12-28T00:04:14 GMT-06:00" duration-ms="6096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC004_MyVehicles.selectTheCar(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:15, instance:testcases.TC004_MyVehicles@f78a47e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MyVehicles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MyVehicles - Smoke Test]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Prod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="selectTheCar(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:15, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-28T00:04:14 GMT-06:00" name="selectTheCar" data-provider="fetchData" finished-at="2023-12-28T00:05:21 GMT-06:00" duration-ms="67647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678901244000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2023]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[My Telluride]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[telluride]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[invalid@mailinator.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectTheCar -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-28T00:05:21 GMT-06:00" name="afterMethod" finished-at="2023-12-28T00:05:23 GMT-06:00" duration-ms="1268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-28T00:05:23 GMT-06:00" name="beforeMethod" finished-at="2023-12-28T00:05:30 GMT-06:00" duration-ms="7225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC004_MyVehicles.verifyCheckBox(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:16, instance:testcases.TC004_MyVehicles@f78a47e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MyVehicles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MyVehicles - Smoke Test]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Prod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyCheckBox(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:16, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-28T00:05:30 GMT-06:00" name="verifyCheckBox" data-provider="fetchData" finished-at="2023-12-28T00:07:13 GMT-06:00" duration-ms="102633" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678901244000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2023]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[My Telluride]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[telluride]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[invalid@mailinator.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckBox -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-28T00:07:13 GMT-06:00" name="afterMethod" finished-at="2023-12-28T00:07:14 GMT-06:00" duration-ms="1246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-28T00:07:14 GMT-06:00" name="beforeMethod" finished-at="2023-12-28T00:07:36 GMT-06:00" duration-ms="21950" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC004_MyVehicles.verifyCancelButton(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:17, instance:testcases.TC004_MyVehicles@f78a47e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MyVehicles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MyVehicles - Smoke Test]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Prod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyCancelButton(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:17, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-28T00:07:36 GMT-06:00" name="verifyCancelButton" data-provider="fetchData" finished-at="2023-12-28T00:08:33 GMT-06:00" duration-ms="57462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678901244000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2023]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[My Telluride]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[telluride]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[invalid@mailinator.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCancelButton -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-28T00:08:33 GMT-06:00" name="afterMethod" finished-at="2023-12-28T00:08:35 GMT-06:00" duration-ms="1229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-28T00:08:35 GMT-06:00" name="beforeMethod" finished-at="2023-12-28T00:08:43 GMT-06:00" duration-ms="8526" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC004_MyVehicles.verifySettingsButtonIncar(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:18, instance:testcases.TC004_MyVehicles@f78a47e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MyVehicles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MyVehicles - Smoke Test]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Prod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifySettingsButtonIncar(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:18, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-28T00:08:43 GMT-06:00" name="verifySettingsButtonIncar" data-provider="fetchData" finished-at="2023-12-28T00:11:53 GMT-06:00" duration-ms="189569" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678901244000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2023]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[My Telluride]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[telluride]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[invalid@mailinator.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySettingsButtonIncar -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-28T00:11:53 GMT-06:00" name="afterMethod" finished-at="2023-12-28T00:12:07 GMT-06:00" duration-ms="13936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-28T00:12:07 GMT-06:00" name="beforeMethod" finished-at="2023-12-28T00:12:13 GMT-06:00" duration-ms="6259" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC004_MyVehicles.verifyGridView(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:19, instance:testcases.TC004_MyVehicles@f78a47e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MyVehicles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MyVehicles - Smoke Test]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Prod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyGridView(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:19, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-28T00:12:13 GMT-06:00" name="verifyGridView" data-provider="fetchData" finished-at="2023-12-28T00:13:09 GMT-06:00" duration-ms="55998" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678901244000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2023]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[My Telluride]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[telluride]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[invalid@mailinator.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGridView -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-28T00:13:09 GMT-06:00" name="afterMethod" finished-at="2023-12-28T00:13:11 GMT-06:00" duration-ms="1410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-28T00:13:11 GMT-06:00" name="beforeMethod" finished-at="2023-12-28T00:13:17 GMT-06:00" duration-ms="6828" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC004_MyVehicles.viewVehicleDetailInListView(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:20, instance:testcases.TC004_MyVehicles@f78a47e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MyVehicles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MyVehicles - Smoke Test]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Prod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="viewVehicleDetailInListView(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:20, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-28T00:13:17 GMT-06:00" name="viewVehicleDetailInListView" data-provider="fetchData" finished-at="2023-12-28T00:13:39 GMT-06:00" duration-ms="21239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678901244000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2023]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[My Telluride]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[telluride]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[invalid@mailinator.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewVehicleDetailInListView -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-28T00:13:39 GMT-06:00" name="afterMethod" finished-at="2023-12-28T00:13:40 GMT-06:00" duration-ms="1237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-28T00:13:40 GMT-06:00" name="beforeMethod" finished-at="2023-12-28T00:13:47 GMT-06:00" duration-ms="7196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC004_MyVehicles.verifyMapIcon(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:21, instance:testcases.TC004_MyVehicles@f78a47e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MyVehicles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MyVehicles - Smoke Test]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Prod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyMapIcon(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:21, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-28T00:13:47 GMT-06:00" name="verifyMapIcon" data-provider="fetchData" finished-at="2023-12-28T00:14:43 GMT-06:00" duration-ms="55737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678901244000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2023]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[My Telluride]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[telluride]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[invalid@mailinator.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMapIcon -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-28T00:14:43 GMT-06:00" name="afterMethod" finished-at="2023-12-28T00:14:44 GMT-06:00" duration-ms="1204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-28T00:14:44 GMT-06:00" name="beforeMethod" finished-at="2023-12-28T00:14:51 GMT-06:00" duration-ms="6303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC004_MyVehicles.verifyDeleteButtonIsEnabled(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:22, instance:testcases.TC004_MyVehicles@f78a47e] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MyVehicles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[MyVehicles - Smoke Test]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Smoke Testing]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[HAEA-KIA]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Prod]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyDeleteButtonIsEnabled(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:22, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-28T00:14:51 GMT-06:00" name="verifyDeleteButtonIsEnabled" data-provider="fetchData" finished-at="2023-12-28T00:15:38 GMT-06:00" duration-ms="47193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sson@mailinator.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12345678901244000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2023]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[My Telluride]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[telluride]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[invalid@mailinator.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[wrongpass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteButtonIsEnabled -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-28T00:15:38 GMT-06:00" name="afterMethod" finished-at="2023-12-28T00:15:48 GMT-06:00" duration-ms="9722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-28T00:15:48 GMT-06:00" name="afterTest" finished-at="2023-12-28T00:15:48 GMT-06:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testcases.TC004_MyVehicles@f78a47e]" started-at="2023-12-28T00:15:48 GMT-06:00" name="afterSuite" finished-at="2023-12-28T00:15:48 GMT-06:00" duration-ms="400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testcases.TC004_MyVehicles -->
+    </test> <!-- MyVehicles -->
+  </suite> <!-- KIA-CWP -->
+</testng-results>

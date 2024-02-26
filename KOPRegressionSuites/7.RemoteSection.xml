@@ -1,0 +1,31 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="KIA-CWP">
+	
+	<parameter name="category" value="Smoke Testing"></parameter>
+	<parameter name="authors" value="HAEA-KIA"></parameter>
+	
+	
+<test  name="Remote Section">
+  	 <parameter name="browser" value="chrome"></parameter>
+  	 <parameter name="dataSheetName" value="TC000_5"></parameter>
+	 <parameter name="testCaseName" value="Remote Section"></parameter>
+	 <parameter name="testDescription" value="Remote Section - Smoke Test"></parameter>
+	  <parameter name="env" value="Prod"></parameter>
+    <classes>
+      <class name="testcases.TC007_RemoteSection">
+		 <!-- <methods> 
+		      <include name="ClimateControl"></include>
+		      <include name="verifyHeatedAndVentilatedSeats"></include>
+		      <include name="climateStopCall"></include>
+		      <include name="verifyClimateOnChangeStatusInDashboard"></include>
+		      <include name="verifyClimateStopChangeStatusInDashboard"></include>
+		      <include name="verifySecurityTabFeatures"></include>
+		      <include name="performRemoteDoorLock"></include>
+		      <include name="performRemoteDoorUnLock"></include>
+		      <include name="verifyCloseOptionInToastMessage"></include>
+		  </methods>-->
+	  </class>      
+    </classes>
+  </test>  
+</suite> 

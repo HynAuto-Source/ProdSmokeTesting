@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="KIA-CWP">
+	
+	<parameter name="category" value="Smoke Testing"></parameter>
+	<parameter name="authors" value="HAEA-KIA"></parameter>
+	
+	
+<test  name="MyVehicles">
+  	 <parameter name="browser" value="edge"></parameter>
+  	 <parameter name="dataSheetName" value="TC000_2"></parameter>
+	 <parameter name="testCaseName" value="MyVehicles"></parameter>
+	 <parameter name="testDescription" value="MyVehicles - Smoke Test"></parameter>
+	 <parameter name="env" value="Prod"></parameter>
+    <classes>
+      <class name="testcases.TC004_MyVehicles">
+		<!--  <methods> 
+		      <exclude name="verifyMyVehicleOptions"></exclude>  
+		      <exclude name="verifyNoVechileMatchedForThisSearchPopup"></exclude>  
+		      <exclude name="clickAddVechileButton"></exclude>  
+		      <exclude name="verifyAddVechileButton"></exclude>  
+		      <exclude name="enterVinField"></exclude> 
+		      <exclude name="validateVerifyVinIsDisable"></exclude> 
+		      <exclude name="verifyVinButtonIsEnabled"></exclude>	      
+		      <exclude name="enterInvalidVinNumber"></exclude> 
+		      <exclude name="verifyWhereCanIFindVin"></exclude> 
+		      <exclude name="searchByYear"></exclude> 
+		      <exclude name="searchByModel"></exclude>   
+		      <exclude name="searchByNickName"></exclude> 
+		      <exclude name="selectTheCar"></exclude> 
+		      <exclude name="verifyCheckBox"></exclude>
+		      <exclude name="verifyCancelButton"></exclude> 
+		      <exclude name="verifySettingsButtonIncar"></exclude>
+		      <exclude name="verifyGridView"></exclude>
+		      <exclude name="viewVehicleDetailInListView"></exclude> 
+		      <exclude name="verifyMapIcon"></exclude>
+		      <include name="verifyDeleteButtonIsEnabled"></include>
+		  </methods>-->
+	  </class>      
+    </classes>
+  </test>  
+</suite> 

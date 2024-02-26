@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="KIA-CWP">
+	
+	<parameter name="category" value="Smoke Testing"></parameter>
+	<parameter name="authors" value="HAEA-KIA"></parameter>
+	
+	
+<test  name="Reference material">
+  	 <parameter name="browser" value="edge"></parameter>
+  	 <parameter name="dataSheetName" value="TC000_14"></parameter>
+	 <parameter name="testCaseName" value="Reference material"></parameter>
+	 <parameter name="testDescription" value="Reference material - Smoke Test"></parameter>
+	 <parameter name="env" value="Prod"></parameter>
+    <classes>
+      <class name="testcases.TC015_ReferenceMaterial">
+		  <methods> 
+		    <exclude name="clickAndVerifyReferenceMaterialTab"></exclude>	
+		      <exclude name="verifyListAndGridView"></exclude>	
+		      <exclude name="searchManualDocuments"></exclude>
+		      <exclude name="searchInvalidVechileManualDocuments"></exclude>
+		      <exclude name="clickAndVerifyPdf"></exclude>
+		      <exclude name="verifyListAndGridViewInVideos"></exclude>	
+		      <exclude name="clickAndVerifyVideo"></exclude>
+		      <exclude name="clickAndVerifyWarrantyInfo"></exclude>	
+		      <exclude name="verifyOriginalOwnerIsSelected"></exclude>
+		      <exclude name="verifyOriginalOwnerAndSubsquentOwner"></exclude>
+		      <exclude name="clickAndVerifyKiaConnect"></exclude>
+		      <exclude name="verifyAppsIsSelected"></exclude> 
+		      <exclude name="verifyConnectivityOptionIsSelected"></exclude>
+		      <exclude name="verifyConvenienceOptionIsSelected"></exclude>
+		      <exclude name="verifyEmergencyAssistanceOptionIsSelected"></exclude>
+		      <exclude name="verifyGettingStartedOptionIsSelected"></exclude>
+		      <exclude name="verifyMaintenanceOptionIsSelected"></exclude>
+		      <exclude name="verifyMultimediaOptionIsSelected"></exclude>
+		      <include name="verifyMyCarZoneOptionIsSelected"></include>	
+	          <include name="verifyNavigationOptionIsSelected"></include>
+		  </methods>
+	  </class>      
+    </classes>
+  </test>  
+</suite> 

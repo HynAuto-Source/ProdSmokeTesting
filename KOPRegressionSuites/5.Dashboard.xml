@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="KIA-CWP">
+
+	<parameter name="category" value="Smoke Testing"></parameter>
+	<parameter name="authors" value="HAEA-KIA"></parameter>
+
+
+	<test name="Dashboard">
+		<parameter name="browser" value="edge"></parameter>
+		<parameter name="dataSheetName" value="TC000_5"></parameter>
+		<parameter name="testCaseName" value="Dashboard"></parameter>
+		<parameter name="testDescription"
+			value="Dashboard - Smoke Test"></parameter>
+		<parameter name="env" value="Prod"></parameter>
+		<classes>
+			<class name="testcases.TC005_Dashboard">
+				<methods>
+				<!--		<include name="verifyDoorTile"></include>
+					<include name="verifyToastsMessageForDoorLockUnlock"></include>
+					<include name="verifyStatusForDoorLockUnlockInRemote"></include>
+					<include name="verifyVehicleStatusForMaintenance"></include>
+					<include name="verifyVehicleFuelRangeAndStationNearBy"></include>
+					<include name="verifyFindGasStationLocationNearBy"></include>
+					<include name="verifyDoorAndWindowsSubmodules"></include>
+					<include name="verifyLightSubmodulesSection"></include>
+					<include name="verifyFluidsSubmodules"></include>
+					<include name="verifySmartKeySection"></include>
+					<include name="verifyVehicleStatusPopupCloseButton"></include>
+					<include name="verifyDiagnosticIssue"></include>
+					<exclude name="stopClimateAndverifyToastMessage"></exclude>
+					<exclude name="verifyClimateIsOffInRemote"></exclude>
+					<exclude name="verifyCheckOutWhatsAround"></exclude>
+					<exclude name="verifyViewAndTakePicOptions"></exclude>
+					<exclude name="clickTakePicOption"></exclude>
+					<exclude name="clickViewOptionAndVerifyLocationPage"></exclude>
+					<exclude name="verifyRecentlyCapturedPics"></exclude>
+					<exclude name="verifyVehicleInformationPopup"></exclude>
+					<exclude name="verifyVinNumberInVehicleInfoPopup"></exclude>
+					<exclude name="updateNickName"></exclude>
+					<exclude name="changeDealer"></exclude>
+					<exclude name="verifyGetDirections"></exclude>
+					<exclude name="clickCreateCustomField"></exclude>
+					<exclude name="createCustomField"></exclude>
+					<exclude name="verifyCreateCustomField"></exclude>
+					<exclude name="verifyCreateCustomFieldBtnEnabled"></exclude>
+					<exclude name="verifyCustomFields"></exclude>
+					<exclude name="closeInformationIconPopup"></exclude>
+					<exclude name="removeNickName"></exclude>
+					<exclude name="clickPrintIcon"></exclude>
+					<exclude name="closeInformationPopup"></exclude>
+					<exclude name="clickAndVerifyAccountsDropdown"></exclude>
+					<exclude name="verifyNavigateToSettings"></exclude>
+					<exclude name="verifyNavigateToDriverPreference"></exclude>
+					<exclude name="verifyLogout"></exclude>
+					<exclude name="verifyNotificationIcon"></exclude>
+					<exclude name="verifySeeAllNotifications"></exclude>
+					<exclude name="verifyAllAndRemoteCategory"></exclude>
+					<exclude name="verifyAllNotificationsCategory"></exclude>
+					<exclude name="verifyRemoteNotificationsCategory"></exclude>
+					<exclude name="verifyMakeAnAppointmentClickable"></exclude>
+					<exclude name="verifyMakeAnAppointmentPopup"></exclude>
+					<exclude name="verifySelectNearbyDealer"></exclude>
+					<include name="verifySelectVehicleRepairRadioButton"></include>
+					<exclude name="verifySelectMaintenanceRadioButton"></exclude>
+					<exclude name="verifySelectOtherRadioButton"></exclude>
+					<exclude name="verifyRequestAppointmentButton"></exclude>
+					<exclude name="verifyRequestAppointment"></exclude>
+					<exclude name="closemakeAnAppointmentPopup"></exclude><methods>
+					<exclude name="verifyDoorTile"></exclude>
+					<exclude name="verifyToastsMessageForDoorLockUnlock"></exclude>
+					<exclude name="verifyStatusForDoorLockUnlockInRemote"></exclude>
+					<exclude name="verifyVehicleStatusForMaintenance"></exclude>
+					<exclude name="verifyVehicleFuelRangeAndStationNearBy"></exclude>
+					<exclude name="verifyFindGasStationLocationNearBy"></exclude>
+					<exclude name="verifyDoorAndWindowsSubmodules"></exclude>
+					<exclude name="verifyLightSubmodulesSection"></exclude>
+					<exclude name="verifyFluidsSubmodules"></exclude>
+					<exclude name="verifySmartKeySection"></exclude>
+					<exclude name="verifyVehicleStatusPopupCloseButton"></exclude>
+					<exclude name="verifyDiagnosticIssue"></exclude>
+					<exclude name="stopClimateAndverifyToastMessage"></exclude>
+					<exclude name="verifyClimateIsOffInRemote"></exclude>
+					<exclude name="verifyCheckOutWhatsAround"></exclude>
+					<exclude name="verifyViewAndTakePicOptions"></exclude>
+					<exclude name="clickTakePicOption"></exclude>
+					<exclude name="clickViewOptionAndVerifyLocationPage"></exclude>
+					<exclude name="verifyRecentlyCapturedPics"></exclude>
+					<exclude name="verifyVehicleInformationPopup"></exclude>
+					<exclude name="verifyVinNumberInVehicleInfoPopup"></exclude>
+					<exclude name="updateNickName"></exclude>
+					<exclude name="changeDealer"></exclude>
+					<exclude name="verifyGetDirections"></exclude>
+					<exclude name="clickCreateCustomField"></exclude>
+					<exclude name="createCustomField"></exclude>
+					<exclude name="verifyCreateCustomField"></exclude>
+					<exclude name="verifyCreateCustomFieldBtnEnabled"></exclude>
+					<exclude name="verifyCustomFields"></exclude>
+					<exclude name="closeInformationIconPopup"></exclude>
+					<exclude name="removeNickName"></exclude>
+					<exclude name="clickPrintIcon"></exclude>
+					<exclude name="closeInformationPopup"></exclude>
+					<exclude name="clickAndVerifyAccountsDropdown"></exclude>
+					<exclude name="verifyNavigateToSettings"></exclude>
+					<exclude name="verifyNavigateToDriverPreference"></exclude>
+					<exclude name="verifyLogout"></exclude>
+					<exclude name="verifyNotificationIcon"></exclude>
+					<exclude name="verifySeeAllNotifications"></exclude>
+					<exclude name="verifyAllAndRemoteCategory"></exclude>
+					<exclude name="verifyAllNotificationsCategory"></exclude>
+					<exclude name="verifyRemoteNotificationsCategory"></exclude>
+					<exclude name="verifyMakeAnAppointmentClickable"></exclude>
+					<exclude name="verifyMakeAnAppointmentPopup"></exclude>
+					<exclude name="verifySelectNearbyDealer"></exclude>
+					<include name="verifySelectVehicleRepairRadioButton"></include>
+					<exclude name="verifySelectMaintenanceRadioButton"></exclude>
+					<exclude name="verifySelectOtherRadioButton"></exclude>
+					<exclude name="verifyRequestAppointmentButton"></exclude>
+					<exclude name="verifyRequestAppointment"></exclude>
+					<exclude name="closemakeAnAppointmentPopup"></exclude> -->
+				</methods> 
+			</class>
+		</classes>
+	</test>
+</suite> 
